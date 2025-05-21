@@ -1,1 +1,3 @@
-# tup_prog_1_2025_guia8
+# Guía 8. Aplicaciones de consola - menú
+
+[Enunciado](https://docs.google.com/document/d/1D4Njg9THo3jAnz28jGN54OeVSX-MQK9R/preview)
