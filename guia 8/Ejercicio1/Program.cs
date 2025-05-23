@@ -12,7 +12,7 @@ namespace ejercicio_1
         static void Main(string[] args)
         {
             #region declarar variables 
-            int max_valor, men_valor, acumulador, ingresos, valor;
+            int max_valor, men_valor, acumulador, ingresos, valor,n;
             double prom;
             #endregion
 
@@ -30,7 +30,7 @@ namespace ejercicio_1
             #endregion
 
             #region iterador para 
-            for (int n = 1; n == ingresos; n = n + 1)
+            for ( n = 1; n <= ingresos; n = n + 1)
             {
                 Console.WriteLine("Ingese valor");
                 valor = Convert.ToInt32(Console.ReadLine());
@@ -45,7 +45,7 @@ namespace ejercicio_1
                 {
                     men_valor = valor;
                 }
-                contador++;
+                
             }
             #endregion
             #region calacular promedio
